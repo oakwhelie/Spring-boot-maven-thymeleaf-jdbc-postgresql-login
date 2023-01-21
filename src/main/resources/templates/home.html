@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<p th:text="'Welcome '+${username}"/>
+	</div>
+	<div>
+		<p th:text="'id					:'+${id}"/>
+		<p th:text="'Real name			:'+${realname}"/>
+		<p th:text="'Address			:'+${address}"/>
+		<p th:text="'Car Licese			:'+${carlicensestatus}"/>
+		<p th:text="'Motorcycle License	:'+${motorcyclelicensestatus}"/>
+		<p th:text="'employment 		:'+${employment}"/>
+    </div>
+    <div>
+    	<a href="/update">update data</a>
+    </div>
+    <div>
+    	<a href="/logout">logout</a>
+    </div>
+    <div>
+    	<a href="/deleteuser">delete user</a>
+    </div>
+</body>
+</html>
